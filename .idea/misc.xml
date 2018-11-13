@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hello-serivce/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-ribbon-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-eureka-2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-zuul/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

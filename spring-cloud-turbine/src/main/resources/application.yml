@@ -1,0 +1,12 @@
+spring:
+  application:
+     name: turbine
+server:
+  port: 8889
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/,http://localhost:8882/eureka/
+turbine:
+  appConfig: ribbon-consumer,ribbon-consumer1
+  cluster-name-expression: new String("default")
