@@ -12,7 +12,7 @@ import javax.accessibility.AccessibleRelation;
 public class SpringCloudZuulApplication {
 
 	public static void main(String[] args) {
-		System.out.println("123");
+		System.out.println("12345");
 		SpringApplication.run(SpringCloudZuulApplication.class, args);
 	}
 
