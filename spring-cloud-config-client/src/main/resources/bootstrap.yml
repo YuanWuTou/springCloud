@@ -7,5 +7,12 @@ spring:
   cloud:
     config:
       profile: dev
-      label: master
-      uri: http://localhost:8904/
+      label: config-label-test
+      discovery:
+        enabled: true
+        serviceId: config-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
+
