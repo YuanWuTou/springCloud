@@ -1,0 +1,11 @@
+server:
+  port: 8905
+
+spring:
+  application:
+     name: yuanwutou
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:8904/
