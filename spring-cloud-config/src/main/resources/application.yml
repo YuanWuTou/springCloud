@@ -1,0 +1,13 @@
+spring:
+  applicaiton:
+     name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/YuanWuTou/ConfigReo/
+          username: YuanWuTou
+          password: ***********
+server:
+  port: 8904
+
