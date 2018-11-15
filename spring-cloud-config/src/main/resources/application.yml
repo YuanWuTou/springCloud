@@ -1,5 +1,5 @@
 spring:
-  applicaiton:
+  application:
      name: config-server
   cloud:
     config:
@@ -7,7 +7,10 @@ spring:
         git:
           uri: https://github.com/YuanWuTou/ConfigReo/
           username: YuanWuTou
-          password: ***********
+          password: yd65210630
 server:
   port: 8904
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
