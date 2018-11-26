@@ -32,7 +32,11 @@
         <module>spring-cloud-turbine</module>
         <module>spring-cloud-feign-consumer</module>
         <module>spring-cloud-zuul</module>
-  </modules>
+        <module>spring-cloud-config</module>
+        <module>spring-cloud-config-client</module>
+        <module>rabbitmq-hello</module>
+        <module>stream-hello</module>
+    </modules>
 
     <dependencies>
         <dependency>
