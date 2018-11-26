@@ -1,5 +1,5 @@
 server:
-  port: 8905
+  port: 8906
 
 spring:
   application:
@@ -11,8 +11,17 @@ spring:
       discovery:
         enabled: true
         serviceId: config-server
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: springcloud
+    password: 123456789
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8881/eureka/
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
