@@ -5,12 +5,23 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/YuanWuTou/ConfigReo/
+          uri: https://github.com/YuanWuTou/ConfigReo
           username: YuanWuTou
-          password: *********
+          password: ***********
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: springcloud
+    password: 123456789
 server:
   port: 8904
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8881/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
