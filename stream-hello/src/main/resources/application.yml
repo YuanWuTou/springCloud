@@ -1,2 +1,10 @@
 server:
   port: 8907
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: out
+        output:
+          destination: input

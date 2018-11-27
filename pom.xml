@@ -36,6 +36,9 @@
         <module>spring-cloud-config-client</module>
         <module>rabbitmq-hello</module>
         <module>stream-hello</module>
+        <module>stream-app-1</module>
+        <module>stream-app-2</module>
+
     </modules>
 
     <dependencies>
