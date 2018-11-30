@@ -1,9 +1,19 @@
 spring:
   application:
     name: trace-1
+  sleuth:
+    sampler:
+      probability: 1
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: springcloud
+    password: 123456789
 server:
   port: 8908
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8881/eureka/
+
+

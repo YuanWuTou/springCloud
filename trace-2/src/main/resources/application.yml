@@ -3,6 +3,14 @@ server:
 spring:
   application:
     name: trace-2
+  sleuth:
+    sampler:
+      probability: 1
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: springcloud
+    password: 123456789
 eureka:
   client:
     serviceUrl:
